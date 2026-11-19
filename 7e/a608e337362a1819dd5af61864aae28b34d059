@@ -1,0 +1,14 @@
+AGENTS.md
+  h_df9c00ddf7d029 115-127
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7ea608e337362a1819dd5af61864aae28b34d059",
+  "prompts": {},
+  "humans": {
+    "h_df9c00ddf7d029": {
+      "author": "zeqi.hh <zeqi.hh@antgroup.com>"
+    }
+  }
+}
