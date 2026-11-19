@@ -1,0 +1,14 @@
+Makefile
+  h_df9c00ddf7d029 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e5e844af462af9be0da344d555d750037b2f10ca",
+  "prompts": {},
+  "humans": {
+    "h_df9c00ddf7d029": {
+      "author": "zeqi.hh <zeqi.hh@antgroup.com>"
+    }
+  }
+}
