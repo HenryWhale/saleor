@@ -112,6 +112,19 @@ database/cache or collide with another worktree's stack.
 - Inside the dev container, dependencies are installed system-wide, so run `pytest` directly — no virtual environment to activate
 - On the host (outside the container), enter the virtual environment before executing tests
 
+### Host quick path
+
+The suite requires a reachable PostgreSQL server — SQLite is not supported — and the
+replica connection is simulated by the test settings, so one database is enough. A
+single file can be run on the host with one line:
+
+```sh
+DATABASE_URL=postgres://user:password@127.0.0.1:5432/saleor uv run pytest -n0 --reuse-db saleor/path/to/test_file.py
+```
+
+`make test-file F=saleor/path/to/test_file.py` wraps the same call, and `make test`
+runs the whole suite (see the `Makefile`).
+
 ## Writing tests
 
 - Use given/when/then structure for clarity

@@ -621,6 +621,14 @@ We recommend you use `breakpoint()` function to set debugger. If you are using d
 
 To speed up the review process and to keep the logs tidy, we recommend the following simple rules on how to write good commit messages:
 
+A template is provided in [`.gitmessage`](.gitmessage). Opt in once per clone:
+
+```sh
+git config commit.template .gitmessage
+```
+
+and every `git commit` will open the editor pre-filled with it.
+
 ### Summary line
 
 - It should contain less than 50 characters. It is best to make it short
