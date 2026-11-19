@@ -1,0 +1,10 @@
+# <summary line: imperative, under 50 chars, what changed>
+# Blank line, then the body: why the change was needed, in wrapped lines.
+# Use bullet points (each starting with a hyphen or an asterisk) when listing
+# several changes or motivations.
+#
+# Keep each commit a single, self-contained issue — it makes review easier.
+# Reference the related issue or PR where applicable, e.g. (#1234).
+#
+# Footer (optional): BREAKING CHANGE: <description of what breaks and the
+# migration path> — also add a CHANGELOG.md entry under "Unreleased".

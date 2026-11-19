@@ -5,6 +5,7 @@
 !.dockerignore
 !.github
 !.gitignore
+!.gitmessage
 !.vscode
 !.semgrep/
 !.semgrepignore
