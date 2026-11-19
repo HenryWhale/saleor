@@ -1,0 +1,18 @@
+.gitignore
+  h_df9c00ddf7d029 8
+.gitmessage
+  h_df9c00ddf7d029 1-10
+CONTRIBUTING.md
+  h_df9c00ddf7d029 624-631
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "65b9e1ab472894a2cc57d57e3767c57552e3aab9",
+  "prompts": {},
+  "humans": {
+    "h_df9c00ddf7d029": {
+      "author": "zeqi.hh <zeqi.hh@antgroup.com>"
+    }
+  }
+}
